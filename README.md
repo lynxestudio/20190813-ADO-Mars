@@ -12,11 +12,16 @@ For enabling MARS on Sql Server connection, only adds the following property at 
 <pre>
 connectionString="Data Source=(local);Initial Catalog=Adventureworks;Integrated Security=True;MultipleActiveResultSets=True;Persist Security Info=False"
 </pre>
+<p align="justify">
 The following program demonstrates how to use a Oracle Connection with MARS enabled.
+</p>
+<p align="justify">
 It runs three command to the samples database HR, and uses the datareader object to get the data.
+</p>
+<p align="justify">
 It only uses one connection for all the commands and readers. 
 The sample database can be downloaded <a href="https://github.com/oracle-samples/db-sample-schemas">here</a>.
-
+</p>
 Fig 1. Running the example.
 <div><img src="images/fig1.png" width="663" height="361" alt=""></div><br/>
 
